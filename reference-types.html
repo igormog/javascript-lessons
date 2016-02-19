@@ -18,12 +18,12 @@ var person = new Object();
 person.name = 'John';
 console.log(typeof(person));
 console.log(person.name);
-console.log('----------');
+console.log('__________');
 
 var person2 = {};
 person2.name = 'John2';
 console.log(person2.name);
-console.log('----------');
+console.log('__________');
 
 var cat = {
 	color : 'gray',
@@ -33,7 +33,61 @@ var cat = {
 console.log(cat.color);
 console.log(cat.name);
 console.log(typeof(cat.age));
-console.log('----------');
+console.log('__________');
 /* Object */
+
+
+/* Array */
+var color = new Array('red', 'blue', 'green');
+console.log(typeof(color));
+console.log(color.length);
+console.log('__________');
+
+var color2 = Array('red', 'blue', 'green');
+console.log(typeof(color2));
+console.log(color2.length);
+console.log('__________');
+
+var names = ['Tom', 'John'];
+console.log(typeof(names));
+console.log(names.length);
+console.log('__________');
+
+var names = ['Tom', 'John'];
+console.log(typeof(names));
+console.log(names.length);
+console.log('__________');
+
+var testArray = ['a', 'b', 'c'];
+if (Array.isArray(testArray)) {
+	console.log('Yes Array');
+}
+console.log(testArray);
+console.log('__________');
+
+var colors = new Array(); 
+colors.push("red", "green");
+colors.push("black");
+console.log(colors);
+var copyArr = colors;
+console.log(copyArr);
+console.log('__________');
+
+var values = [1, 2, 3, 4, 5];
+values.reverse();
+console.log(values);
+console.log('__________');
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+Array.isArray(arr); // true
+arr.push('test'); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, "test"]
+arr.pop(); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr.shift(); // [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+arr.unshift('test'); // ["test", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+arr.reverse(); // [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+arr.sort(); // [1, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9]
+var arr2 = arr.concat('666','777'); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, "666", "777"]
+var arr3 = arr.splice(1); // [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+/* Array */
 
 </script>
