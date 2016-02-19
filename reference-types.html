@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript - Reference types</title>
+</head>
+<body>
+	<h1>Reference types</h1>
+</body>
+</html>
+
+
+<script>
+"use strict";
+
+/* Object */
+var person = new Object();
+person.name = 'John';
+console.log(typeof(person));
+console.log(person.name);
+console.log('----------');
+
+var person2 = {};
+person2.name = 'John2';
+console.log(person2.name);
+console.log('----------');
+
+var cat = {
+	color : 'gray',
+	name : 'Tom',
+	age : 3
+}
+console.log(cat.color);
+console.log(cat.name);
+console.log(typeof(cat.age));
+console.log('----------');
+/* Object */
+
+</script>
