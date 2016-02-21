@@ -1,0 +1,231 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "hg s",
+		"selected_items":
+		[
+			[
+				"hg s",
+				"Hg: Status"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Alig",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/igorsolarov/Documents/GitHub/javascript-lessons"
+	],
+	"file_history":
+	[
+		"/Users/igorsolarov/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/igorsolarov/Library/Application Support/Sublime Text 3/Packages/Mercurial for Sublime/Mercurial for Sublime.sublime-settings",
+		"/Users/igorsolarov/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/igorsolarov/Documents/GitHub/javascript-lessons/reference-types.html",
+		"/Users/igorsolarov/Documents/GitHub/javascript-lessons/test.html",
+		"/Users/igorsolarov/Desktop/test.html",
+		"/Applications/MAMP/htdocs/oneroofenergy/wp-content/plugins/test/index.php",
+		"/Applications/MAMP/htdocs/oneroofenergy/wp-content/plugins/test/functions.php",
+		"/Applications/MAMP/htdocs/oneroofenergy/wp-content/plugins/test/style.css",
+		"/Applications/MAMP/htdocs/oneroofenergy/wp-content/themes/probusiness/header.php",
+		"/Applications/MAMP/htdocs/oneroofenergy/.hgignore",
+		"/Applications/MAMP/htdocs/oneroofenergy/wp-content/plugins/index.php",
+		"/Applications/MAMP/htdocs/oneroofenergy/wp-config.php",
+		"/Applications/MAMP/htdocs/oneroofenergy/index.php",
+		"/Applications/MAMP/htdocs/oneroofenergy/sftp-config.json",
+		"/Applications/MAMP/htdocs/oneroofenergy/untitled",
+		"/Applications/MAMP/htdocs/oneroofenergy/wp-content/themes/index.php",
+		"/Users/igorsolarov/Desktop/in",
+		"/Applications/MAMP/htdocs/ORE.Corporate/wp-config.php",
+		"/Applications/MAMP/htdocs/ORE.Corporate/.hgignore",
+		"/Users/igorsolarov/Documents/Backups/oneroofenergy.com/Files/17 feb/ORE.Corporate/wp-config.php",
+		"/Applications/MAMP/htdocs/ORE.Corporate/readme.html",
+		"/Applications/MAMP/htdocs/ORE.Corporate/wp-activate.php",
+		"/Applications/MAMP/htdocs/ORE.Corporate/wp-blog-header.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tap",
+			"white",
+			"space",
+			"quote-form",
+			"quote_func1",
+			"vc_row",
+			"http://prelauch.dn2.joomexp.com/wp-content/uploads/2014/02/logo.png"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/igorsolarov/Documents/GitHub/javascript-lessons"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
