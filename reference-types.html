@@ -88,17 +88,37 @@ arr.reverse(); // [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 arr.sort(); // [1, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9]
 var arr2 = arr.concat('666','777'); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, "666", "777"]
 var arr3 = arr.splice(1); // [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-arr.iпdex0f(4); // 4 (position)
+arr.indexOf(4); // 4 (position)
 /* Array */
 
 /* Array bust */
-// every()
-// filter()
-// map()
-// some()
+function isBigEnough(element, index, array) {
+	return element >= 10;
+}
+arr.every(isBigEnough);
+arr.filter(isBigEnough);
+arr.map(isBigEnough);
+arr.some(isBigEnough);
 arr.forEach(function(item, i, arr) {
-  console.log(item);
+	// item;
 });
+var sum = arr.reduce(function(prev, cur, index, array){
+	return prev + cur;
+});
+console.log(sum);
+arr.reduceRight(isBigEnough);
+console.log('__________');
 /* Array bust */
+
+var someDate = new Date("May 25, 2004");
+console.log(someDate);
+
+var data = '12-34-56';
+console.log(data.replace( /-/g, ":" )); // 12:34:56
+
+function summa(numl, num2) {
+	return numl + num2;
+}
+console.log(typeof(summa));
 
 </script>
