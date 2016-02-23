@@ -1,0 +1,50 @@
+<script>
+
+function localise(greeting) {
+	return function(name) {
+		console.log(greeting + ' ' + name);
+	};
+};
+var english = localise('Hello');
+var russian = localise('Privet');
+english('closure');
+russian('closure');
+
+console.log('__________________');
+
+function quarum(n1) {
+	return function(n2) {
+		console.log(n1*n2);
+	}
+}
+var two = quarum(2);
+var three = quarum(3);
+two(2);
+three(2);
+
+console.log('__________________');
+
+function counter(n) {
+	var count = n;
+	return function() {
+		console.log(count++);
+	};
+}
+var ct = counter(5);
+ct();
+ct();
+ct();
+ct();
+
+console.log('__________________');
+
+var i = 5
+function plusOne() {
+	i++;
+	return i;
+}
+console.log(plusOne()); //6
+console.log(plusOne()); //7
+console.log(i); //7
+
+</script>
