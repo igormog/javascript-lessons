@@ -9,7 +9,6 @@ var english = localise('Hello');
 var russian = localise('Privet');
 english('closure');
 russian('closure');
-
 console.log('__________________');
 
 function quarum(n1) {
@@ -21,7 +20,6 @@ var two = quarum(2);
 var three = quarum(3);
 two(2);
 three(2);
-
 console.log('__________________');
 
 function counter(n) {
@@ -35,7 +33,6 @@ ct();
 ct();
 ct();
 ct();
-
 console.log('__________________');
 
 var i = 5
@@ -46,5 +43,20 @@ function plusOne() {
 console.log(plusOne()); //6
 console.log(plusOne()); //7
 console.log(i); //7
+console.log('__________________');
+
+var outerVar = 4;
+var handle;
+function outer() {
+	var innetVar = 5;
+	function inner() {
+		console.log(outerVar);
+		console.log(innetVar);
+	};
+	handle = inner;
+}
+console.log(outer());
+console.log(handle());
+console.log('__________________');
 
 </script>
