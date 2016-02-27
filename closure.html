@@ -68,4 +68,14 @@ return function(х) {
 }
 console.log(twice(4) + " " + fourTimes(5));
 
+var ct = (function counter() {
+	var count = 5;
+	return function() {
+		console.log(count++);
+	}
+})();
+ct();
+ct();
+ct();
+
 </script>
