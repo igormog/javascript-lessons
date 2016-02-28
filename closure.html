@@ -1,5 +1,4 @@
 <script>
-
 function localise(greeting) {
 	return function(name) {
 		console.log(greeting + ' ' + name);
@@ -11,6 +10,7 @@ english('closure');
 russian('closure');
 console.log('__________________');
 
+
 function quarum(n1) {
 	return function(n2) {
 		console.log(n1*n2);
@@ -21,6 +21,7 @@ var three = quarum(3);
 two(2);
 three(2);
 console.log('__________________');
+
 
 function counter(n) {
 	var count = n;
@@ -35,6 +36,7 @@ ct();
 ct();
 console.log('__________________');
 
+
 var i = 5
 function plusOne() {
 	i++;
@@ -44,6 +46,7 @@ console.log(plusOne()); //6
 console.log(plusOne()); //7
 console.log(i); //7
 console.log('__________________');
+
 
 var outerVar = 4;
 var handle;
@@ -59,6 +62,7 @@ console.log(outer());
 console.log(handle());
 console.log('__________________');
 
+
 function createFunction(n)
 return function(х) {
 	return x*n;
@@ -67,6 +71,8 @@ return function(х) {
 	var fourTimes = createFunction(4);
 }
 console.log(twice(4) + " " + fourTimes(5));
+console.log('__________________');
+
 
 var ct = (function counter() {
 	var count = 5;
@@ -76,6 +82,4 @@ var ct = (function counter() {
 })();
 ct();
 ct();
-ct();
-
 </script>
