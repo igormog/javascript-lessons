@@ -37,6 +37,19 @@ ct();
 console.log('__________________');
 
 
+function createCounter() {
+   var numberOfCalls = 0;
+   return function() {
+      return ++numberOfCalls;
+   }
+}
+var fn = createCounter();
+fn();
+fn();
+fn();
+console.log('__________________');
+
+
 var i = 5
 function plusOne() {
 	i++;
