@@ -70,6 +70,13 @@ var MyModule = {
 MyModule.sayPrevedToBook();
 
 
+for (var i = 0; i < links.length; i++) {
+   links[i].onclick = function() {
+      alert(i);
+   }
+}
+
+
 var i = 5
 function plusOne() {
 	i++;
