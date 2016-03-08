@@ -88,19 +88,4 @@ console.log(plusOne()); //6
 console.log(plusOne()); //7
 console.log(i); //7
 console.log('__________________');
-
-
-var outerVar = 4;
-var handle;
-function outer() {
-	var innetVar = 5;
-	function inner() {
-		console.log(outerVar);
-		console.log(innetVar);
-	};
-	handle = inner;
-}
-console.log(outer());
-console.log(handle());
-console.log('__________________');
 </script>
